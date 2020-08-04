@@ -1,0 +1,11 @@
+Please Follow the given instructions in order to run the application:
+1) Clone and download this repository
+2) Open the repository in command line or prompt in VScode and run "npm install"
+3) Make sure the MongoDB server is running locally on your PC.
+4) Open MongoDB compass or any other GUI on the default localhost port i.e 27017
+5) Go to the command prompt in the repository again and run "node index.js" to run the page.
+6) You can fill the form and see the filled details by clicking on view all.
+
+If any errors occur regarding the DB:
+1) Try creating a DB called ApplicantDB with collection name as applicants
+2) To connect to mongo via mongoose you can use the URI "mongodb://localhost:27017/ApplicantDB"
