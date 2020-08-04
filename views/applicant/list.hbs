@@ -1,0 +1,29 @@
+<div class="text-center">
+<h3>Applicant Details</h3>
+<hr>
+</div>
+<table class="table table-striped table-hover table-responsive">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Resume Link</th>
+            <th>Position Applied</th>
+            <th>Highest Qualification</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+        <tr>
+            <td>{{this.Name}}</td>
+            <td>{{this.email}}</td>
+            <td>{{this.resLink}}</td>
+            <td>{{this.posApplied}}</td>
+            <td>{{this.highQual}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+<div class="text-center">
+   <a class="btn btn-secondary" href="/applicant">Back to Application</a> 
+</div>
